@@ -123,7 +123,19 @@ const fi = (function() {
       } else {
        flat.push(i);
         } }}
-        
+  else {
+        for (const i of arr) {
+         if (arr.isArray(i)) {
+           const arrFlat = this.flat(i);
+            for (const nestedi of arrFlat) {
+              flat.push(nestedi);
+            }
+          } else {
+            flar.push(i);
+          }
+        }
+      }
+      return flat;
  },
  
  
