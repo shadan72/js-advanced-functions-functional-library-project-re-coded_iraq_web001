@@ -66,7 +66,9 @@ const fi = (function() {
      }
     },
 
-
+ size: function(arr){
+   
+ }
   }
 })()
 
