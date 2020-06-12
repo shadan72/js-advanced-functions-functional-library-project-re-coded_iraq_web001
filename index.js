@@ -112,11 +112,10 @@ const fi = (function() {
    })
  },
  
- flatten: function(){
+ flatten: function(arr,ele){
    
  },
  
- uniq: function(arr,)
  
  
  
