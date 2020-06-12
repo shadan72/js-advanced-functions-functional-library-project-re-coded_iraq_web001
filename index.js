@@ -59,7 +59,7 @@ const fi = (function() {
     
        for(let i=0;i<arr.length;i++){
           if(ele(arr[i]))
-         return arr[i]
+         newArr.push(arr[i])
        }
      return undefined  
      }
