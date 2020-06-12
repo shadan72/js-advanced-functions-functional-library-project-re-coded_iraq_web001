@@ -114,7 +114,9 @@ const fi = (function() {
  
  flatten: function(arr,ele){
    let flat=[];
-   if(!!)
+   if(ele){
+     
+   }
  },
  
  
