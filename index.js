@@ -110,9 +110,11 @@ const fi = (function() {
    return newArr.sort((a,b)=>{
      return ele(a) - ele(b)
    })
+ },
+ 
+ flatten: function(){
+   
  }
- 
- 
  
  
  
