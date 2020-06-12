@@ -78,7 +78,7 @@ const fi = (function() {
  first: function(arr,ele){
     let fisrt=[];
     if(!ele){
-      fisrt=arr[0]
+      return arr[0];
     }
     else{
        for (let i = 0; i < ele && i < array.length; i++){
