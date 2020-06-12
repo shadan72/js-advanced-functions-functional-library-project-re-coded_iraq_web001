@@ -115,12 +115,12 @@ const fi = (function() {
  flatten: function(arr,ele){
    let flat=[];
    if(ele){
-               for (const i of array) {
-            if (arr.isArray(i)) {
-              for (const nestedi of i) {
-                flat.push(nestedi);
-              }
-            } else {
+    for (const i of array) {
+      if (arr.isArray(i)) {
+         for (const nestedi of i) {
+          flat.push(nestedi);
+            }
+       } else {
               flat.push(element);
             }
         }
