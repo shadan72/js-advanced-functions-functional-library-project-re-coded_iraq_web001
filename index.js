@@ -22,7 +22,7 @@ const fi = (function() {
 
     reduce: function(arr,acc, callback) {
        let i;
-  if (acc || acc === undefined) {
+  if (acc || acc === 0) {
     i = 0;}
     else{
     i = arr[0];
