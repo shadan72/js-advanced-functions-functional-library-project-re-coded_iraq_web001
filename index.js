@@ -24,8 +24,8 @@ const fi = (function() {
        let i;
   if (startingPoint !== undefined) {
     i = startingPoint;
-    for (const element of arr) {
-      val = callBack(val, element);
+    for (const ele of arr) {
+      i = callBack(i, ele);
     }
   } else {
     val = array[0];
