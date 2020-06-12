@@ -30,8 +30,8 @@ const fi = (function() {
   } else {
     i = arr[0];
     arr = arr.slice(1);
-    for (const ele of a) {
-      val = callBack(val, element);
+    for (const ele of arr) {
+      val = acc(val, element);
     }
   }
   return val;
