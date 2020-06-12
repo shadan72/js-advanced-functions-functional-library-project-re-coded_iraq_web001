@@ -38,7 +38,8 @@ const fi = (function() {
     functions: function() {
 
     },
-    find:function(arr,key){
+    
+    find: function(arr,key){
      if(!(arr instanceof Array)){
        arr=Object.value(arr)
        for(let i=0;i<arr.length;i++){
