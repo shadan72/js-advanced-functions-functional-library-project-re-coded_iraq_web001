@@ -25,8 +25,9 @@ const fi = (function() {
   if (acc || acc === 0) {
     i = 0;}
     else{
-    acc = arr[0];}
-    arr = arr.slice(1);
+    acc = arr[0];
+      
+    }
     for (const ele of arr) {
       acc = callback(acc, arr[ele],arr);
     }
