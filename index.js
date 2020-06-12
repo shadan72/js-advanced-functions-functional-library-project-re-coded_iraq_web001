@@ -41,7 +41,7 @@ const fi = (function() {
     
     find: function(arr,ele){
      if(!(arr instanceof Array)){
-       arr=Object.value(arr)
+       arr=Object.values(arr)
        
      }
        
