@@ -82,7 +82,7 @@ const fi = (function() {
     }
     else{
        for (let i = 0; i < ele && i < array.length; i++){
-         fisrt=arr[i]
+         fisrt.push(arr[i])
        }
     }
     return first
