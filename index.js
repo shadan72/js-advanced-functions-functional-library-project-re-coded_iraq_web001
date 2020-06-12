@@ -70,6 +70,9 @@ const fi = (function() {
         if(!(arr instanceof Array)){
           return arr.length
         }
+        else{
+          
+        }
  },
  
  
