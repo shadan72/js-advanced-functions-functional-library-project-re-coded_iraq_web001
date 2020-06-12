@@ -26,7 +26,7 @@ const fi = (function() {
     i = 0;}
     else{
     acc = arr[0];
-      
+      i=1;
     }
     for (const ele of arr) {
       acc = callback(acc, arr[ele],arr);
