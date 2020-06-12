@@ -102,6 +102,7 @@ const fi = (function() {
      if(!!arr[i])
      newArr.push(arr[i])
    }
+   return newArr
  },
  
  
