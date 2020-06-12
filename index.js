@@ -120,8 +120,8 @@ const fi = (function() {
          for (const nestedi of i) {
           flat.push(nestedi);
             }
-   } else {
-     flat.push(i);
+      } else {
+       flat.push(i);
         }
         }
    }
