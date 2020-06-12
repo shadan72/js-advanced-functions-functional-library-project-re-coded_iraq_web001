@@ -21,7 +21,20 @@ const fi = (function() {
     },
 
     reduce: function(arr,acc, starVal) {
-     
+       let i;
+  if (startingPoint !== undefined) {
+    i = startingPoint;
+    for (const element of arr) {
+      val = callBack(val, element);
+    }
+  } else {
+    val = array[0];
+    array = array.slice(1);
+    for (const element of array) {
+      val = callBack(val, element);
+    }
+  }
+  return val;
     },
 
     functions: function() {
