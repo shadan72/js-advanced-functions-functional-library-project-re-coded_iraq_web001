@@ -114,7 +114,9 @@ const fi = (function() {
  
  flatten: function(){
    
- }
+ },
+ 
+ uniq: function()
  
  
  
