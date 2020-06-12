@@ -131,7 +131,7 @@ const fi = (function() {
               flat.push(nestedi);
             }
           } else {
-            flar.push(i);
+            flat.push(i);
           }
         }
       }
