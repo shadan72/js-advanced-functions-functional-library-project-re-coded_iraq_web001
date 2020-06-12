@@ -86,7 +86,16 @@ const fi = (function() {
     }
  },
  
- 
+ last: function(arr,ele){
+    if(!!ele){
+      let lastOne=arr.length-1;
+      return arr.slice(0,lastOne)
+    }
+    else{
+      return arr[0];
+
+    }
+ },
   }
 })()
 
