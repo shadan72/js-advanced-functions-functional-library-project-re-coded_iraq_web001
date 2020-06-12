@@ -71,7 +71,7 @@ const fi = (function() {
           return arr.length
         }
         else{
-          
+          return Object
         }
  },
  
