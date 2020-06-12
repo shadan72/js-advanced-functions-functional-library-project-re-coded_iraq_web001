@@ -48,8 +48,8 @@ const fi = (function() {
        for(let i=0;i<arr.length;i++)
          if(ele(arr[i]))
          return arr[i]
-         else{
-           return undefined  }
+      
+           return undefined  
        
      
     }
