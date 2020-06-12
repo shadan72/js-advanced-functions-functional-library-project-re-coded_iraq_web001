@@ -96,8 +96,9 @@ const fi = (function() {
 
     }
  },
- compact: function(){
-   
+ compact: function(arr){
+   let newArr=[]
+   if()
  },
  
  
