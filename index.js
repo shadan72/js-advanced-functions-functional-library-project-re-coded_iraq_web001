@@ -77,8 +77,8 @@ const fi = (function() {
  
  first: function(arr,ele){
     if(!!ele){
-      let first=n;
-      return arr.slice(0,first)
+      let firstOne=n;
+      return arr.slice(0,firstOne)
     }
     else{
       return arr[0];
