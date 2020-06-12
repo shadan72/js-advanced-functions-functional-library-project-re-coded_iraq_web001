@@ -42,7 +42,8 @@ const fi = (function() {
      if(!(arr instanceof Array)){
        arr=Object.value(arr)
        for(let i=0;i<arr.length;i++){
-         if(key(arr[i]) )
+         if(key(arr[i]))
+         
        }
      }
     }
