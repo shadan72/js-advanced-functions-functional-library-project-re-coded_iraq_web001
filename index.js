@@ -106,7 +106,7 @@ const fi = (function() {
  },
  
  sortBy: function(arr,ele){
-   const newArr= 
+   const newArr=(...arr) 
  }
  
  
