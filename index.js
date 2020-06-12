@@ -40,7 +40,7 @@ const fi = (function() {
     },
     find:function(arr,key){
      if(!(arr instanceof Array)){
-       
+       arr=Object.value(arr)
      }
     }
 
