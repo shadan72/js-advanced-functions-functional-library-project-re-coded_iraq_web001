@@ -77,6 +77,7 @@ const fi = (function() {
  
  first: function(arr,ele){
     if(!!ele){
+      let first=
     }
     else{
       return arr[0];
