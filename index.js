@@ -39,14 +39,14 @@ const fi = (function() {
 
     },
     
-    find: function(arr,key){
+    find: function(arr,ele){
      if(!(arr instanceof Array)){
        arr=Object.value(arr)
        
      }
        
        for(let i=0;i<arr.length;i++){
-         if(key(arr[i]))
+         if(ele(arr[i]))
          return arr[i]
          else{
            return undefined  }
