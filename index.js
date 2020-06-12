@@ -21,7 +21,7 @@ const fi = (function() {
     },
 
     reduce: function(arr,acc, starVal) {
-
+     
     },
 
     functions: function() {
