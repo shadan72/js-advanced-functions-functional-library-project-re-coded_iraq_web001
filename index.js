@@ -92,7 +92,7 @@ const fi = (function() {
       return arr.slice(0,lastOne)
     }
     else{
-      return arr[0];
+      return arr[arr.length-1];
 
     }
  },
