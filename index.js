@@ -77,7 +77,8 @@ const fi = (function() {
  
  first: function(arr,ele){
     if(!!ele){
-      let first=
+      let first=n;
+      
     }
     else{
       return arr[0];
