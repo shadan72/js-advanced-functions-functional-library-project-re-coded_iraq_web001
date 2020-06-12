@@ -49,11 +49,7 @@ const fi = (function() {
           if(ele(arr[i]))
          return arr[i]
        }
-        
-      
-           return undefined  
-       
-     
+     return undefined  
     }
 
   }
