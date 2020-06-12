@@ -67,8 +67,14 @@ const fi = (function() {
     },
 
  size: function(arr){
-   
- }
+        if(!(arr instanceof Array)){
+          
+        }
+ },
+ 
+ 
+ 
+ 
   }
 })()
 
