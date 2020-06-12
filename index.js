@@ -25,12 +25,12 @@ const fi = (function() {
   if (acc || acc === 0) {
     i = 0;}
     else{
-    i = arr[0];
+    acc = arr[0];}
     arr = arr.slice(1);
     for (const ele of arr) {
-      acc = callback(acc, arr[i],arr);
+      acc = callback(acc, arr[ele],arr);
     }
-    }
+    
   return acc;
     },
 
