@@ -42,6 +42,9 @@ const fi = (function() {
     find: function(arr,key){
      if(!(arr instanceof Array)){
        arr=Object.value(arr)
+       
+     }
+       
        for(let i=0;i<arr.length;i++){
          if(key(arr[i]))
          return carr[i]
@@ -49,7 +52,7 @@ const fi = (function() {
            return undefined
          }
        }
-     }
+     
     }
 
   }
