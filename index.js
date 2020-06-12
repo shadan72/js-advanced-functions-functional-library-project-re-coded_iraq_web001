@@ -28,7 +28,7 @@ const fi = (function() {
     acc = arr[0];
       ele=1;
     }
-    for (ele; ele<arr.length;ele++) {
+    for (; ele<arr.length;ele++) {
       acc = callback(acc, arr[ele],arr);
     }
     
