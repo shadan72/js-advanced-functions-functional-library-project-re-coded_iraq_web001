@@ -20,7 +20,7 @@ const fi = (function() {
      return newArr
     },
 
-    reduce: function() {
+    reduce: function(arr,acc, starVal) {
 
     },
 
