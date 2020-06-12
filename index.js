@@ -20,21 +20,18 @@ const fi = (function() {
      return newArr
     },
 
-    reduce: function(arr,acc, starVal) {
+    reduce: function(arr,acc, callback) {
        let i;
-  if (startingPoint !== undefined) {
-    i = startingPoint;
-    for (const ele of arr) {
-      i = acc(i, ele);
-    }
-  } else {
+  if (acc === undefined) {
+    i = 0;}
+    else{
     i = arr[0];
     arr = arr.slice(1);
     for (const ele of arr) {
-      i = acc(val, ele);
+      acc = callback(acc, arr[i],arr);
     }
-  }
-  return i;
+    }
+  return acc;
     },
 
     functions: function() {
