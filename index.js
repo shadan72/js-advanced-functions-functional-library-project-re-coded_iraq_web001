@@ -20,7 +20,7 @@ const fi = (function() {
      return newArr
     },
 
-    reduce: function(arr,acc, callback) {
+    reduce: function(arr,callback,acc) {
        let ele;
   if (acc || acc === 0) {
     ele = 0;}
