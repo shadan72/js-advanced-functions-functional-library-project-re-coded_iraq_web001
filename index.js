@@ -75,7 +75,9 @@ const fi = (function() {
         }
  },
  
- 
+ first: function(arr,ele){
+    
+ },
  
  
   }
