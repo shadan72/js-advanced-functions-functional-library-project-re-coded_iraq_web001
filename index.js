@@ -122,9 +122,8 @@ const fi = (function() {
             }
       } else {
        flat.push(i);
-        }
-        }
-   }
+        } }}
+        
  },
  
  
