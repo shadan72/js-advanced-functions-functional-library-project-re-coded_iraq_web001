@@ -25,12 +25,12 @@ const fi = (function() {
   if (startingPoint !== undefined) {
     i = startingPoint;
     for (const ele of arr) {
-      i = callBack(i, ele);
+      i = acc(i, ele);
     }
   } else {
-    val = array[0];
-    array = array.slice(1);
-    for (const element of array) {
+    i = arr[0];
+    arr = arr.slice(1);
+    for (const ele of a) {
       val = callBack(val, element);
     }
   }
