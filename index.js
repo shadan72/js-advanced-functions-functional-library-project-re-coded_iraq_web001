@@ -49,8 +49,7 @@ const fi = (function() {
          if(key(arr[i]))
          return carr[i]
          else{
-           return undefined
-         }
+           return undefined  }
        }
      
     }
