@@ -85,6 +85,7 @@ const fi = (function() {
          fisrt=arr[i]
        }
     }
+    return first
  },
  
  
