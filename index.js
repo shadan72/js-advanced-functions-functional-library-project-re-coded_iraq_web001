@@ -50,7 +50,14 @@ const fi = (function() {
          return arr[i]
        }
      return undefined  
-    }
+    },
+    filter: function(arr,ele){
+     if(!(arr instanceof Array)){
+       arr=Object.values(arr)
+       
+       
+     }
+    },
 
   }
 })()
