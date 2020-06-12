@@ -47,7 +47,7 @@ const fi = (function() {
        
        for(let i=0;i<arr.length;i++){
          if(key(arr[i]))
-         return carr[i]
+         return arr[i]
          else{
            return undefined  }
        }
