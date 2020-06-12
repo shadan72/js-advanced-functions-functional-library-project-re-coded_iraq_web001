@@ -31,10 +31,10 @@ const fi = (function() {
     i = arr[0];
     arr = arr.slice(1);
     for (const ele of arr) {
-      val = acc(val, element);
+      i = acc(val, ele);
     }
   }
-  return val;
+  return i;
     },
 
     functions: function() {
