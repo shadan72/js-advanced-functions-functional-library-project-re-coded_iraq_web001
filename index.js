@@ -39,7 +39,9 @@ const fi = (function() {
 
     },
     find:function(arr,key){
-     if(!(arr instanceof ArrayBuffer))
+     if(!(arr instanceof Array)){
+       
+     }
     }
 
   }
