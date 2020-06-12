@@ -88,7 +88,7 @@ const fi = (function() {
  
  last: function(arr,ele){
     if(!!ele){
-      let lastOne=-(ele);
+      let lastOne=-1*(ele);
       return arr.slice(lastOne)
     }
     else{
