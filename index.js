@@ -76,14 +76,11 @@ const fi = (function() {
  },
  
  first: function(arr,ele){
-    let fisrt=[];
-    if(!ele){
-      return arr[0];
+    if(!!ele){
     }
     else{
-       for (let i = 0; i < ele && i < array.length; i++){
-         fisrt.push(arr[i])
-       }
+      return arr[0];
+
     }
     return fisrt
  },
