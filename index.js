@@ -55,7 +55,13 @@ const fi = (function() {
      if(!(arr instanceof Array)){
        arr=Object.values(arr)
        
-       
+    const newArr = []
+    
+       for(let i=0;i<arr.length;i++){
+          if(ele(arr[i]))
+         return arr[i]
+       }
+     return undefined  
      }
     },
 
