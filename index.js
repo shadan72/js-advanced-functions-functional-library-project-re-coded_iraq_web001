@@ -62,7 +62,7 @@ const fi = (function() {
           if(ele(arr[i]))
          newArr.push(arr[i])
        }
-     return undefined  
+     return newArr  
      }
     },
 
