@@ -51,6 +51,7 @@ const fi = (function() {
        }
      return undefined  
     },
+    
     filter: function(arr,ele){
      if(!(arr instanceof Array)){
        arr=Object.values(arr)
