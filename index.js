@@ -9,7 +9,7 @@ const fi = (function() {
       for(const ele in arr){
         callback(arr[ele], ele, arr)
       }
-    
+    return arr
     },
 
     map: function(arr, callback) {
