@@ -105,7 +105,9 @@ const fi = (function() {
    return newArr
  },
  
- 
+ sortBy: function(a,b){
+   return 
+ }
  
  
  
