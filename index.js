@@ -96,6 +96,18 @@ const fi = (function() {
 
     }
  },
+ compact: function(){
+   
+ },
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
   }
 })()
 
