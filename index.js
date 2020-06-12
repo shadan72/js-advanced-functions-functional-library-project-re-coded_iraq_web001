@@ -81,7 +81,9 @@ const fi = (function() {
       fisrt=arr[0]
     }
     else{
-      
+       for (let i = 0; i < ele && i < array.length; i++){
+         fisrt=
+       }
     }
  },
  
