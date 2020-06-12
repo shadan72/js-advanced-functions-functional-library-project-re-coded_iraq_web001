@@ -82,7 +82,6 @@ const fi = (function() {
       return arr[0];
 
     }
-    return fisrt
  },
  
  
