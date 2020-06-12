@@ -21,14 +21,14 @@ const fi = (function() {
     },
 
     reduce: function(arr,acc, callback) {
-       let i;
+       let ele;
   if (acc || acc === 0) {
-    i = 0;}
+    ele = 0;}
     else{
     acc = arr[0];
-      i=1;
+      ele=1;
     }
-    for (const ele of arr) {
+    for (i; i<arr.length;i++) {
       acc = callback(acc, arr[ele],arr);
     }
     
