@@ -5,11 +5,15 @@ const fi = (function() {
     },
 
     each: function() {
-
+  
     },
 
-    map: function() {
-
+    map: function(arr, callback) {
+     const newArr=[];
+      for(const ele in arr){
+       newArr.push(callback(arr[ele], ele, arr)) 
+      }
+     return newArr
     },
 
     reduce: function() {
