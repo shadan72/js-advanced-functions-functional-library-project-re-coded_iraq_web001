@@ -76,7 +76,13 @@ const fi = (function() {
  },
  
  first: function(arr,ele){
-    let fisrt=[]
+    let fisrt=[];
+    if(!ele){
+      fisrt=arr[0]
+    }
+    else{
+      
+    }
  },
  
  
