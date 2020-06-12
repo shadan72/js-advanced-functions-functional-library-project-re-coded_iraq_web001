@@ -38,9 +38,9 @@ const fi = (function() {
     functions: function() {
 
     },
-find:function(arr,key){
-  
-}
+    find:function(arr,key){
+     if(!(arr[key]))
+    }
 
   }
 })()
